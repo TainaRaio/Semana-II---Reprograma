@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.banner {
+    
+   background-image: url(../IMG/Design\ sem\ nome\ \(4\).png); 
+   height: 90vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.banner p, h1{
+    color: pink;
+    margin: 0;
+    position: var(50%);
+}
+
+.banner h2{
+    display: inline-block;
+    width: 20%; 
+    color: #7E459B;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.banner button {
+    color:  #7E459B;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#footer{
+    justify-content: center;
+}
