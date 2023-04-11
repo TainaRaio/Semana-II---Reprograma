@@ -1,42 +1,48 @@
 body{
     margin: 0;
+    margin-top: 0;
 }
-.banner {
-    
-   background-image: url(../IMG/Design\ sem\ nome\ \(4\).png); 
-   height: 90vh;
-   background-repeat: no-repeat;
-   background-size: cover;
+header{
+    background-image: url(../IMG/fundo.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;  
+}
+
+.banner{
+
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
-   gap: 10px;
+   padding: 200px;
+   text-align:center;
+   margin-top: 0px;
 }
 
-.banner p, h1{
+.banner img{
+    width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+
+.banner h1{
     color: pink;
-    margin: 0;
-    position: var(50%);
+    font-size: 40px;
+    
+   
 }
 
-.banner h2{
-    display: inline-block;
-    width: 20%; 
+.banner h3{
+    color:rgb(253, 148, 209);
+    font-size: 15px;
+   
+}
+
+.banner p{
     color: #7E459B;
     font-family: cursive;
-    font-size: 15px;
-    text-align: justify;
-}
-
-
-.banner button {
-    color:  #7E459B;
-    background-color: white;
-    padding: 10px;
-    border-radius: 30px;
-}
-
-#footer{
-    justify-content: center;
+    font-size: 30px;  
+    
 }
